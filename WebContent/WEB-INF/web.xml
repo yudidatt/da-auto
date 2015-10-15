@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>da_auto</display-name>
+  <welcome-file-list>
+    <welcome-file>redirect.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>IPDetailsController</display-name>
+    <servlet-name>IPDetailsController</servlet-name>
+    <servlet-class>com.shieldsquare.controller.IPDetailsController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IPDetailsController</servlet-name>
+    <url-pattern>/IPDetailsController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Nslookup_Domain_controller</display-name>
+    <servlet-name>Nslookup_Domain_controller</servlet-name>
+    <servlet-class>com.shieldsquare.controller.Nslookup_Domain_controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Nslookup_Domain_controller</servlet-name>
+    <url-pattern>/Nslookup_Domain_controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Delete_Controller</display-name>
+    <servlet-name>Delete_Controller</servlet-name>
+    <servlet-class>com.shieldsquare.controller.Delete_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete_Controller</servlet-name>
+    <url-pattern>/Delete_Controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>InsightMailController</display-name>
+    <servlet-name>InsightMailController</servlet-name>
+    <servlet-class>com.shieldsquare.controller.InsightMailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsightMailController</servlet-name>
+    <url-pattern>/InsightMailController</url-pattern>
+  </servlet-mapping>
+</web-app>
